@@ -16,7 +16,7 @@ class IntegralPath[T<:Data](dlf_ic_width: Int, dlf_i_width: Int, ic_shift: Int) 
         val ki = Input(SInt())
         val dlf_i_out = Output(SInt(dlf_i_width.W))
     }}
-    val dlf_i_temp = io.ki * dlf_ic + dlf_i
+    val dlf_i_temp = io.ki * io.dlf_ic + io.dlf_i
 
     io.dlf_i_out := withReset(!io.rst.asBool){RegEnable((0.B ## dlf_i_temp.tail(1)).asSInt, dlf_i_temp << ic_shift, io.en)}
 }
@@ -28,8 +28,8 @@ class ProportionalPath[T<:Data](dlf_i_width: Int, ic_shift: Int) extends Module{
         val kp = Input(SInt())
         val dlf_out = Output(SInt(dlf_i_width.W))
     }}
-    val mag = kp * io.dlf_p
-    io.dlf_out := io.dlf_i_out + (mag << ic_shift)
+    val mag = io.kp * io.dlf_i_out
+    io.dlf_out := mag << ic_shift
 }
 
 //TODO: Implement DSM
@@ -52,10 +52,10 @@ class DigitalLoopFilter[T<:Data](kp_width: Int,
     val fcw_out = Output(SInt(dco_fcw_width.W))
   })
 
-    val alg = Module(new AdaptiveLoopGain(buf_depth, alg_width, alg_ic_width, alg_ga_width, alg_gain_max_power, kp_width, ki_width, dlf_i_width, ic_shift))
     val i_path = Module(new IntegralPath(dlf_ic_width, dlf_i_width, ic_shift))
     val p_path = Module(new ProportionalPath(dlf_i_width, ic_shift))
 
+    val reset_i = (!io.rst.asBool).asAsyncReset
     // Connect sub-cells
     i_path.io.rst := io.rst
 
@@ -63,13 +63,13 @@ class DigitalLoopFilter[T<:Data](kp_width: Int,
     val dlf_i_prop = io.dlf_ic << ic_shift
     i_path.io.dlf_ic := io.dlf_ic
     i_path.io.dlf_i := i_path.io.dlf_i_out
-    i_path.io.ki := io.dlf_ki
+    i_path.io.ki := io.dlf_ki.asSInt
 
 
     // p gain
     p_path.io.dlf_i_out := i_path.io.dlf_i_out
-    p_path.io.kp := dlf_kp
-    p_path.io.dlf_p := dlf_i_prop
+    p_path.io.kp := io.dlf_kp.asSInt
+    p_path.io.dlf_p := io.dlf_ic
 
     val fcw_next = Wire(SInt(dco_fcw_width.W))
 

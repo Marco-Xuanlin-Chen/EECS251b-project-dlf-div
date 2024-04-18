@@ -1,0 +1,23 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /bwrcq/home/chenxuanlin2001/EECS251B_project_PLL/EECS251b-project-dlf-div/dlf/target/scala-2.13/-name-_2.13-0.1.0.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	dlf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /bwrcq/home/chenxuanlin2001/EECS251B_project_PLL/EECS251b-project-dlf-div/dlf/target/scala-2.13/classes/dlf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	dlf/ProportionalPath$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /bwrcq/home/chenxuanlin2001/EECS251B_project_PLL/EECS251b-project-dlf-div/dlf/target/scala-2.13/classes/dlf/ProportionalPath$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	dlf/VerilogMain$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /bwrcq/home/chenxuanlin2001/EECS251B_project_PLL/EECS251b-project-dlf-div/dlf/target/scala-2.13/classes/dlf/VerilogMain$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	dlf/IntegralPath.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /bwrcq/home/chenxuanlin2001/EECS251B_project_PLL/EECS251b-project-dlf-div/dlf/target/scala-2.13/classes/dlf/IntegralPath.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	dlf/IntegralPath$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /bwrcq/home/chenxuanlin2001/EECS251B_project_PLL/EECS251b-project-dlf-div/dlf/target/scala-2.13/classes/dlf/IntegralPath$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	dlf/VerilogMain.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /bwrcq/home/chenxuanlin2001/EECS251B_project_PLL/EECS251b-project-dlf-div/dlf/target/scala-2.13/classes/dlf/VerilogMain.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	dlf/VerilogMain$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /bwrcq/home/chenxuanlin2001/EECS251B_project_PLL/EECS251b-project-dlf-div/dlf/target/scala-2.13/classes/dlf/VerilogMain$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	dlf/DigitalLoopFilter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /bwrcq/home/chenxuanlin2001/EECS251B_project_PLL/EECS251b-project-dlf-div/dlf/target/scala-2.13/classes/dlf/DigitalLoopFilter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	dlf/ProportionalPath.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /bwrcq/home/chenxuanlin2001/EECS251B_project_PLL/EECS251b-project-dlf-div/dlf/target/scala-2.13/classes/dlf/ProportionalPath.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	dlf/DigitalLoopFilter$$anon$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /bwrcq/home/chenxuanlin2001/EECS251B_project_PLL/EECS251b-project-dlf-div/dlf/target/scala-2.13/classes/dlf/DigitalLoopFilter$$anon$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

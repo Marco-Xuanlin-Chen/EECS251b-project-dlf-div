@@ -1,0 +1,10 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run main, Some(010f28e4-33cd-4ba8-9196-8a84e37e9908), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /bwrcq/home/chenxuanlin2001/EECS251B_project_PLL/EECS251b-project-dlf-div/dlf/target/scala-2.13/classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0m/bwrcq/home/chenxuanlin2001/EECS251B_project_PLL/EECS251b-project-dlf-div/dlf/src/main/scala/dlf.scala:90:69: procedure syntax is deprecated: instead, add `: Unit =` to explicitly declare `printFile`'s return type[0m
+[0m[[0m[33mwarn[0m] [0m[0m    def printFile(f: java.io.File)(op: java.io.PrintWriter => Unit) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 4 s, completed Apr 18, 2024 6:44:52 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

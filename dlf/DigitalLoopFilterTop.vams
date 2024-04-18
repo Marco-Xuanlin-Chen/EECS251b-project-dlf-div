@@ -1,0 +1,23 @@
+`include "constants.vams"
+`include "disciplines.vams"
+`timescale 10ps / 1ps
+
+module DigitalLoopFilterTop(clk, reset, dlf_in, kp, ki, dlf_out)
+
+    electrical gnd;
+    ground gnd;
+    reg clk, reset;
+    reg[7:0] dlf_in, dlf_out;
+    reg[3:0] ki, kp;
+
+    initial begin
+	clk = 0;
+	reset = 1;
+	#100
+	reset = 0;
+    end
+
+    DigitalLoopFilter Dlf (clock(clk), io-rst(reset), io_dlf_ic(dlf_in), io_dlf_kp(kp), io_dlf_ki(ki), io_fcw_out(dlf_out));
+
+endmodule
+
