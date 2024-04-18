@@ -1,0 +1,35 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /bwrcq/home/chenxuanlin2001/ee251b-project-Marco/div/target/scala-2.13/-name-_2.13-0.1.0.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	dummy_clk_mux.v[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /bwrcq/home/chenxuanlin2001/ee251b-project-Marco/div/target/scala-2.13/classes/dummy_clk_mux.v[0m
+[0m[[0m[0mdebug[0m] [0m[0m	dummy_dco_9_5_3.v[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /bwrcq/home/chenxuanlin2001/ee251b-project-Marco/div/target/scala-2.13/classes/dummy_dco_9_5_3.v[0m
+[0m[[0m[0mdebug[0m] [0m[0m	div[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /bwrcq/home/chenxuanlin2001/ee251b-project-Marco/div/target/scala-2.13/classes/div[0m
+[0m[[0m[0mdebug[0m] [0m[0m	div/ClockMuxTree$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /bwrcq/home/chenxuanlin2001/ee251b-project-Marco/div/target/scala-2.13/classes/div/ClockMuxTree$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	div/VerilogMain$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /bwrcq/home/chenxuanlin2001/ee251b-project-Marco/div/target/scala-2.13/classes/div/VerilogMain$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	div/ClockDivider.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /bwrcq/home/chenxuanlin2001/ee251b-project-Marco/div/target/scala-2.13/classes/div/ClockDivider.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	div/ClockMux$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /bwrcq/home/chenxuanlin2001/ee251b-project-Marco/div/target/scala-2.13/classes/div/ClockMux$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	div/ClockMuxTree.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /bwrcq/home/chenxuanlin2001/ee251b-project-Marco/div/target/scala-2.13/classes/div/ClockMuxTree.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	div/ClockMux.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /bwrcq/home/chenxuanlin2001/ee251b-project-Marco/div/target/scala-2.13/classes/div/ClockMux.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	div/VerilogMain.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /bwrcq/home/chenxuanlin2001/ee251b-project-Marco/div/target/scala-2.13/classes/div/VerilogMain.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	div/VerilogMain$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /bwrcq/home/chenxuanlin2001/ee251b-project-Marco/div/target/scala-2.13/classes/div/VerilogMain$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	div/ClockDivIO.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /bwrcq/home/chenxuanlin2001/ee251b-project-Marco/div/target/scala-2.13/classes/div/ClockDivIO.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	div/DivLatch2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /bwrcq/home/chenxuanlin2001/ee251b-project-Marco/div/target/scala-2.13/classes/div/DivLatch2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	div/ClockMuxTree$$anon$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /bwrcq/home/chenxuanlin2001/ee251b-project-Marco/div/target/scala-2.13/classes/div/ClockMuxTree$$anon$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	div/ClockDivParams.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /bwrcq/home/chenxuanlin2001/ee251b-project-Marco/div/target/scala-2.13/classes/div/ClockDivParams.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	div/DivLatch2$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /bwrcq/home/chenxuanlin2001/ee251b-project-Marco/div/target/scala-2.13/classes/div/DivLatch2$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

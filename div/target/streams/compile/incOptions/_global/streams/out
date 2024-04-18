@@ -1,0 +1,21 @@
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /bwrcq/home/chenxuanlin2001/ee251b-project-Marco/div/target/scala-2.13/classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /bwrcq/home/chenxuanlin2001/ee251b-project-Marco/div/target/scala-2.13/classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	VerilogMain$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ClockMuxTree$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ClockMux.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	VerilogMain$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	VerilogMain.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DivLatch2$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ClockMuxTree.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ClockMux$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ClockDivParams.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ClockDivider.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ClockMuxTree$$anon$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ClockDivIO.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DivLatch2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /bwrcq/home/chenxuanlin2001/ee251b-project-Marco/div/target/scala-2.13/classes.bak[0m

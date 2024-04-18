@@ -1,0 +1,7 @@
+[0m[[0m[33mwarn[0m] [0m[0m/bwrcq/home/chenxuanlin2001/ee251b-project-Marco/div/src/main/scala/div.scala:142:69: procedure syntax is deprecated: instead, add `: Unit =` to explicitly declare `printFile`'s return type[0m
+[0m[[0m[33mwarn[0m] [0m[0m    def printFile(f: java.io.File)(op: java.io.PrintWriter => Unit) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/bwrcq/home/chenxuanlin2001/ee251b-project-Marco/div/src/main/scala/div.scala:110:20: Widening conversion from Int to Float is deprecated because it loses precision. Write `.toFloat` instead.[0m
+[0m[[0m[33mwarn[0m] [0m[0m    val maxDepth = maxDepthDiv.ceil.toInt[0m
+[0m[[0m[33mwarn[0m] [0m[0m                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m
