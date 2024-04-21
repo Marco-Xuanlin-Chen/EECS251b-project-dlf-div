@@ -3,62 +3,64 @@ $ v2016.4_38.25    Tue Jan 3 14:53:59 PST 2017
 *.BUSDELIMITER [ 
 
 .SUBCKT DivLatch2 io_rst io_input_clock io_div2_clk io_en 
-Xio_div2_clk_r_reg io_div2_clk io_input_clock n_1 io_rst 
+Xio_div2_clk_r_reg io_input_clock n_1 io_rst VGND VNB VPB VPWR io_div2_clk 
 + sky130_fd_sc_hd__dfrtp_1 
-Xg10__2398 n_1 n_0 io_div2_clk sky130_fd_sc_hd__xnor2_1 
-Xg11 n_0 io_en sky130_fd_sc_hd__inv_1 
+Xg10__2398 n_0 io_div2_clk VGND VNB VPB VPWR n_1 sky130_fd_sc_hd__xnor2_1 
+Xg11 io_en VGND VNB VPB VPWR n_0 sky130_fd_sc_hd__inv_1 
 .ENDS
 
 .SUBCKT DivLatch2_24 io_rst io_input_clock io_div2_clk io_en 
-Xio_div2_clk_r_reg io_div2_clk io_input_clock n_0 io_rst 
+Xio_div2_clk_r_reg io_input_clock n_0 io_rst VGND VNB VPB VPWR io_div2_clk 
 + sky130_fd_sc_hd__dfrtp_1 
-Xg10__5107 n_0 io_en io_div2_clk sky130_fd_sc_hd__xor2_1 
+Xg10__5107 io_en io_div2_clk VGND VNB VPB VPWR n_0 sky130_fd_sc_hd__xor2_1 
 .ENDS
 
 .SUBCKT DivLatch2_23 io_rst io_input_clock io_div2_clk io_en 
-Xio_div2_clk_r_reg io_div2_clk io_input_clock n_0 io_rst 
+Xio_div2_clk_r_reg io_input_clock n_0 io_rst VGND VNB VPB VPWR io_div2_clk 
 + sky130_fd_sc_hd__dfrtp_1 
-Xg10__6260 n_0 io_en io_div2_clk sky130_fd_sc_hd__xor2_1 
+Xg10__6260 io_en io_div2_clk VGND VNB VPB VPWR n_0 sky130_fd_sc_hd__xor2_1 
 .ENDS
 
 .SUBCKT DivLatch2_22 io_rst io_input_clock io_div2_clk io_en 
-Xio_div2_clk_r_reg io_div2_clk io_input_clock n_0 io_rst 
+Xio_div2_clk_r_reg io_input_clock n_0 io_rst VGND VNB VPB VPWR io_div2_clk 
 + sky130_fd_sc_hd__dfrtp_1 
-Xg10__4319 n_0 io_en io_div2_clk sky130_fd_sc_hd__xor2_1 
+Xg10__4319 io_en io_div2_clk VGND VNB VPB VPWR n_0 sky130_fd_sc_hd__xor2_1 
 .ENDS
 
 .SUBCKT DivLatch2_21 io_rst io_input_clock io_div2_clk io_en 
-Xio_div2_clk_r_reg io_div2_clk io_input_clock n_0 io_rst 
+Xio_div2_clk_r_reg io_input_clock n_0 io_rst VGND VNB VPB VPWR io_div2_clk 
 + sky130_fd_sc_hd__dfrtp_1 
-Xg10__8428 n_0 io_en io_div2_clk sky130_fd_sc_hd__xor2_1 
+Xg10__8428 io_en io_div2_clk VGND VNB VPB VPWR n_0 sky130_fd_sc_hd__xor2_1 
 .ENDS
 
 .SUBCKT Mux2 input1 input2 result choice 
-Xg14 n_0 choice sky130_fd_sc_hd__inv_1 
-Xg13__5526 n_1 input2 choice sky130_fd_sc_hd__nand2_8 
-Xg19__6783 result input1 n_0 n_1 sky130_fd_sc_hd__a21bo_2 
+Xg14 choice VGND VNB VPB VPWR n_0 sky130_fd_sc_hd__inv_1 
+Xg13__5526 input2 choice VGND VNB VPB VPWR n_1 sky130_fd_sc_hd__nand2_8 
+Xg19__6783 input1 n_0 n_1 VGND VNB VPB VPWR result sky130_fd_sc_hd__a21bo_2 
 .ENDS
 
 .SUBCKT Mux2_1 input1 input2 result choice 
-Xg25__3680 result input1 input2 choice sky130_fd_sc_hd__mux2_2 
+Xg25__3680 input1 input2 choice VGND VNB VPB VPWR result 
++ sky130_fd_sc_hd__mux2_2 
 .ENDS
 
 .SUBCKT Mux2_2 input1 input2 result choice 
-Xg25__1617 result input1 input2 choice sky130_fd_sc_hd__mux2_2 
+Xg25__1617 input1 input2 choice VGND VNB VPB VPWR result 
++ sky130_fd_sc_hd__mux2_2 
 .ENDS
 
 .SUBCKT Mux2_4_25 input1 input2 result choice 
-Xg14 n_0 choice sky130_fd_sc_hd__inv_1 
-Xg13__2802 n_1 input2 choice sky130_fd_sc_hd__nand2_1 
-Xg19__1705 result input1 n_0 n_1 sky130_fd_sc_hd__a21bo_2 
+Xg14 choice VGND VNB VPB VPWR n_0 sky130_fd_sc_hd__inv_1 
+Xg13__2802 input2 choice VGND VNB VPB VPWR n_1 sky130_fd_sc_hd__nand2_1 
+Xg19__1705 input1 n_0 n_1 VGND VNB VPB VPWR result sky130_fd_sc_hd__a21bo_2 
 .ENDS
 
 .SUBCKT Mux2_4 input1 input2 result choice 
-Xg14 n_2 choice sky130_fd_sc_hd__inv_1 
-Xg13__5122 n_3 input2 choice sky130_fd_sc_hd__nand2_1 
-Xg19__8246 n_1 n_0 n_3 sky130_fd_sc_hd__nand2_1 
-Xg20__7098 n_0 input1 n_2 sky130_fd_sc_hd__nand2_1 
-Xdrc_bufs result n_1 sky130_fd_sc_hd__buf_8 
+Xg14 choice VGND VNB VPB VPWR n_2 sky130_fd_sc_hd__inv_1 
+Xg13__5122 input2 choice VGND VNB VPB VPWR n_3 sky130_fd_sc_hd__nand2_1 
+Xg19__8246 n_0 n_3 VGND VNB VPB VPWR n_1 sky130_fd_sc_hd__nand2_1 
+Xg20__7098 input1 n_2 VGND VNB VPB VPWR n_0 sky130_fd_sc_hd__nand2_1 
+Xdrc_bufs n_1 VGND VNB VPB VPWR result sky130_fd_sc_hd__buf_8 
 .ENDS
 
 .SUBCKT MuxTree div0 div2 div4 div8 div16 div32 sel[2] sel[1] sel[0] result 
